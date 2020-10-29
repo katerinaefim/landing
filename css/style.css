@@ -1,0 +1,81 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(https://arthur-littm.github.io/startup-landing/images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.btn {
+  direction: inline-block;
+  background-color: #ef233c;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: 0 0 20px lightgrey;
+  text-align: center;
+  padding: 15px;
+  border: 1.2px solid lightgrey;
+  color: black;
+}
+
+.card img {
+  height: 120px;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+}
+
+.footer a {
+  font-size: 35px;
+  color: #ef233c;
+}
+
+.footer p {
+  color: lightgrey;
+}
